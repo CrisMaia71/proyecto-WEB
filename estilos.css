@@ -1,0 +1,133 @@
+/*botón de búsqueda*/
+form.d-flex input , button.btn{
+    font-size: small;
+}
+/*íconos del menú*/
+li.nav-item span img{
+    padding-right: 5px;
+}
+li a.nav-link:hover{
+    color:#1c0357;
+    font-weight: bold;
+    
+}
+/*carusel imágenes*/
+#carouselExampleCaptions{
+    padding-top: 10px;
+}
+
+.carousel-caption h3,h4{
+    color:#ffffff;
+        font-weight:bold;
+    }
+/*especialidades*/
+.ratio  iframe{
+    padding-top: 6px;
+}
+.card-body > p.card-text{
+    font-size: 1rem;
+    color:black;
+}
+  
+#open {
+    background-color: #47a386;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 25px;
+}
+  
+.modalc-c {
+    display: flex;
+    background-color: #f0cdcd4d;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    /*opacity: 0; */ 
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 300vw;
+    transition: opacity 0.3s ease;
+}
+  
+.show {
+    pointer-events: auto;
+    opacity: 1;
+  }
+  
+.modalc {
+    background-color: #fff;
+    width: 600px;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+/*.modalc h1 {
+    margin: 0;
+  }
+  
+.modalc p {
+    opacity: 0.7;
+    font-size: 14px;
+  }*/
+/*Galería*/
+.col figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 320px;
+    margin: auto;
+}
+
+.col figure img {
+    max-width: 320px;
+    max-height: 150px;
+}
+
+.col figure figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+.r_gal{
+    position: relative;
+    cursor:pointer;
+    overflow: hidden;
+}
+.r_gal::before{
+    content:"IPET N°379";
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background-image:url(Recursos/imagenes/elec2.jpg);
+    transform: /*translate(100%)*/scale(0);
+    transition: transform .4s;
+    color:rgb(38, 33, 83);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration-color: #1c0357;
+    opacity: 0.5;
+    font-size: 1.5rem;
+
+}
+.r_gal:hover::before{
+    transform: /*translate(0)*/ scale(1) rotate(360deg);
+}
+/*Historia*/
+p.historia{
+    text-align: justify;
+    padding:2%;
+}
