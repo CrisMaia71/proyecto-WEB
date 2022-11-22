@@ -28,55 +28,70 @@ li a.nav-link:hover{
     font-size: 1rem;
     color:black;
 }
-  
-#open {
-    background-color: #47a386;
-    border: 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  /*Currìcula*/
+.texto{
+    font-size: 1.5rem;
+}
+.contenido{
+    color:#180c5c;
+    font-weight: bold;
+}
+ul li{
+    font-size: 1rem;
+}
+/*Currìcula*/
+
+#modalBtn{
+    width:12rem;
+    height: 2.5rem;
+    font-size:1.2rem;
+    font-weight: bold;
+}
+#modalBtn:hover{
+    background-color: #3009dd;
+    box-shadow: #222;
+    color:#fff;
+}
+.fondo{
+    text-shadow: #0d064b;
+    background-color: #6161f54f;
+}
+.fondo>.titulo{
+    color:rgb(22, 8, 71);
+    font-weight: bold;
+    text-shadow: #3009dd;
+}
+
+.modal-body li {
+    list-style-image: url(Recursos/iconos/code1.png);
+  }
+.modal-footer{
+    grid-column: 1/5;
+}
+
+
+.modal-btn{
+    text-decoration: none;
+    margin-left: 65%;
+    width:90px;
+    height: 40px;
     color: #fff;
-    font-size: 14px;
-    padding: 10px 25px;
+    background-color: #0c033a;
+    padding: 5px 25px 5px 25px;
+    border: 1px solid ;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight:400;
+    text-align: center;
+    transition: background-color .3s;
 }
-  
-.modalc-c {
-    display: flex;
-    background-color: #f0cdcd4d;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    pointer-events: none;
-    /*opacity: 0; */ 
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 300vw;
-    transition: opacity 0.3s ease;
-}
-  
-.show {
-    pointer-events: auto;
-    opacity: 1;
-  }
-  
-.modalc {
+
+#modal-btn:hover{
+    color: #533c80;
     background-color: #fff;
-    width: 600px;
-    max-width: 100%;
-    padding: 30px 50px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    
-  }
-  
-/*.modalc h1 {
-    margin: 0;
-  }
-  
-.modalc p {
-    opacity: 0.7;
-    font-size: 14px;
-  }*/
+}
+
+
 /*Galería*/
 .col figure {
     border: thin #c0c0c0 solid;
@@ -95,7 +110,7 @@ li a.nav-link:hover{
 .col figure figcaption {
     background-color: #222;
     color: #fff;
-    font: italic smaller sans-serif;
+    font: smaller sans-serif;
     padding: 3px;
     text-align: center;
 }
@@ -126,8 +141,30 @@ li a.nav-link:hover{
 .r_gal:hover::before{
     transform: /*translate(0)*/ scale(1) rotate(360deg);
 }
+
+/*Gestión Directiva Administrativa*/
+.gestion{
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+.h3{
+    margin-bottom: 20px;
+}
+.h3, .col>.fuente{
+    font-weight: bold;
+    color:#ffffff;
+    
+}
 /*Historia*/
 p.historia{
     text-align: justify;
     padding:2%;
 }
+/*Contacto*/
+.Todo {
+    max-width: 20%;
+    position: relative;
+    top: -520px;
+    padding-left: 50px;
+
+  }
