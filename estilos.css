@@ -21,6 +21,9 @@ li a.nav-link:hover{
         font-weight:bold;
     }
 /*especialidades*/
+.esp{
+    color:#ffffff;
+}
 .ratio  iframe{
     padding-top: 6px;
 }
@@ -61,7 +64,9 @@ ul li{
     font-weight: bold;
     text-shadow: #3009dd;
 }
-
+.modal-body .elec> li{
+    list-style-image: url(Recursos/iconos/electricidad1.png);
+}
 .modal-body li {
     list-style-image: url(Recursos/iconos/code1.png);
   }
@@ -156,15 +161,35 @@ ul li{
     
 }
 /*Historia*/
+.tituloN{
+     font-size: 2em;
+     color:#1c0357;
+     font-weight: bold;
+}
 p.historia{
     text-align: justify;
     padding:2%;
 }
 /*Contacto*/
-.Todo {
-    max-width: 20%;
-    position: relative;
-    top: -520px;
-    padding-left: 50px;
 
+.separar{
+    padding-top: 1em;
+}
+.ffinal{
+    padding-top: 1em;
   }
+  .footer{
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+      color:#ffffff;
+  }
+  .promos{
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    color:#ffffff;
+  }
+.fw-normal{
+    padding: 25px;
+}
