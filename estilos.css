@@ -160,6 +160,9 @@ p.historia{
     text-align: justify;
     padding:2%;
 }
+#colorHistoria{
+    background-color: rgb(32, 94, 94);
+}
 /*Contacto*/
 .Todo {
     max-width: 20%;
