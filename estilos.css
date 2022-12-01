@@ -20,6 +20,20 @@ li a.nav-link:hover{
     color:#ffffff;
         font-weight:bold;
     }
+
+/*novedades*/
+/*.video{
+    position:relative;
+    top: auto;
+    left: 25%;
+    background-color: #5f7aac;
+    width: 30%;
+}
+video {
+    padding: 5px;
+    width: 100%;
+    height: auto;
+  }*/
 /*especialidades*/
 .ratio  iframe{
     padding-top: 6px;
@@ -36,10 +50,10 @@ li a.nav-link:hover{
     color:#180c5c;
     font-weight: bold;
 }
+
 ul li{
     font-size: 1rem;
 }
-/*Currìcula*/
 
 #modalBtn{
     width:12rem;
@@ -61,7 +75,9 @@ ul li{
     font-weight: bold;
     text-shadow: #3009dd;
 }
-
+.modal-body .elec> li{
+    list-style-image: url(Recursos/iconos/electricidad1.png);
+}
 .modal-body li {
     list-style-image: url(Recursos/iconos/code1.png);
   }
