@@ -21,6 +21,11 @@ li a.nav-link:hover{
         font-weight:bold;
     }
 /*especialidades*/
+.h4{
+    position: static;
+    font-size: larger;
+    
+}
 .ratio  iframe{
     padding-top: 6px;
 }
@@ -153,17 +158,26 @@ ul li{
 .h3, .col>.fuente{
     font-weight: bold;
     color:#ffffff;
+}
+.to{
+    position: absolute;
+}
+
+
+/*Historia*/
+.histor{
+    font-size: xx-large;
     
 }
-/*Historia*/
 p.historia{
     text-align: justify;
     padding:2%;
-}
+    
+  }
 /*Contacto*/
 .Todo {
     max-width: 20%;
-    position: relative;
+    position: sticky;
     top: -520px;
     padding-left: 50px;
 
